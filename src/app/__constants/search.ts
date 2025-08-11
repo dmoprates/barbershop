@@ -1,9 +1,9 @@
-interface QuickSearchOptions {
+interface QuickSearchOption {
   imageUrl: string
   title: string
 }
 
-export const quickSearchOptions: QuickSearchOptions[] = [
+export const quickSearchOptions: QuickSearchOption[] = [
   {
     imageUrl: "/cabelo.svg",
     title: "Cabelo",
